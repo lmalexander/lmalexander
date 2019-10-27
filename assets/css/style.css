@@ -62,7 +62,7 @@ body {
     color: #30948D;
     font-size: 25px;
     margin: 25px;
-    border-bottom: darkgray; 2px;
+    border-bottom: darkgray 2px;
     padding-bottom: 15px;
     padding-top: 15px;
     text-align: left;
@@ -81,6 +81,12 @@ img {
     text-align: left;
     border: #fff;
 }
+
+p {
+    text-align: center;
+    color: #efeee7;
+  }
+
   footer {
     clear: both;
     position: fixed;
@@ -90,10 +96,7 @@ img {
     padding: 20px;
     background-color: darkgray;
     padding: 5px;
-    border: #30948D; 5px;
+    border: #30948D 5px;
     height: 75px;
   }
-  p {
-    text-align: center;
-    color: #efeee7;
-  }
+  
