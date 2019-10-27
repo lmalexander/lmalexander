@@ -11,12 +11,15 @@ body {
     background-color: lightgray;
   }
   
+  /* header & nav style */
+
   header {
     background: #ffffff;
     margin-bottom: 20px;
     color: #333;
     height: 80px;
   }
+
  h1 {
     float: left;
     padding: 20px;
@@ -52,12 +55,15 @@ body {
     text-decoration: none;
   }
 
+  /* body style */
+
 .container {
     width: 70%;
     margin: 0 auto;
     border: #333 5px;
     background: #efeee7;
   }
+
   h2 {
     color: #30948D;
     font-size: 25px;
@@ -67,6 +73,13 @@ body {
     padding-top: 15px;
     text-align: left;
   }
+
+p {
+    text-align: center;
+    color: #efeee7;
+  }
+
+  /* about page */
 img {
     width: 150px;
     height: 150px;
@@ -82,11 +95,7 @@ img {
     border: #fff;
 }
 
-p {
-    text-align: center;
-    color: #efeee7;
-  }
-
+ /*sticky footer*/
   footer {
     clear: both;
     position: fixed;
