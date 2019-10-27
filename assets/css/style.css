@@ -75,8 +75,8 @@ body {
   }
 
 p {
-    text-align: center;
-    color: #efeee7;
+    text-align: left;
+    color: black;
   }
 
   /* about page */
@@ -93,6 +93,11 @@ img {
     color: #000000;
     text-align: left;
     border: #fff;
+}
+
+/*contact page*/
+input {
+  width: 100%;
 }
 
  /*sticky footer*/
