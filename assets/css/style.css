@@ -58,7 +58,6 @@ body {
     border: #333 5px;
     background: #efeee7;
   }
-
   h2 {
     color: #30948D;
     font-size: 25px;
@@ -68,29 +67,33 @@ body {
     padding-top: 15px;
     text-align: left;
   }
-  
 img {
     width: 150px;
     height: 150px;
     margin-right: 20px;
     float: left;
   }
-
-  p {
-    padding: 20px 0;
-    margin: 20px; 
+.bio {
+    padding: 20px; 
     float: left;
     font-size: 20px;
     color: #000000;
     text-align: left;
     border: #fff;
-  }
-
+}
   footer {
-    padding: 20px;
     clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
     background-color: darkgray;
     padding: 5px;
     border: #30948D; 5px;
-    height: 40px;
+    height: 75px;
+  }
+  p {
+    text-align: center;
+    color: #efeee7;
   }
