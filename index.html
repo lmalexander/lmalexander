@@ -43,10 +43,10 @@
                 </div>
                 <div class="col-lg-3" id="resumeCV"> <!--cv/resume-->
                     <div class="row" id="cvPDF"> <!--curriculum vitae uploaded 12/2019-->
-                        <a class="btn btn-primary" href="docs/website cv november 2019.pdf" role="button" target="blank">Curriculum Vitae</a>
+                        <a class="btn btn-light" href="docs/website cv november 2019.pdf" role="button" target="blank">Curriculum Vitae</a>
                     </div>
                     <div class="row" id="resumePDF"> <!--links to cv as well until resume update-->
-                        <a class="btn btn-primary" href="docs/website cv november 2019.pdf" role="button" target="blank">Resume</a>
+                        <a class="btn btn-light" href="docs/website cv november 2019.pdf" role="button" target="blank">Resume</a>
                     </div>
                 </div>
                 </div>   
@@ -55,7 +55,8 @@
     </div>
     <hr>
 
-    <!--future: current and future projects. 2 columns: literature & media and code -->
+    <!--future: current and future projects. 2 columns: literature & media and code-->
+    <!--change this to bootstrap grid-->
     <div class="container" id="future">
         <div class="row"> <!--full container row-->
             <div class="col-lg-6"> <!--current literature projects-->
@@ -104,6 +105,7 @@
     <hr>
 
     <!--past: portfolio-->
+    <!--change this to bootstrap grid-->
     <div class="container" id="past">
         <div class="row"> <!--row 1, 3 cols-->
             <div class="col-lg-4">
@@ -176,13 +178,21 @@
     <div class="container" id="now">
         <div class="row"> <!--full container row-->
             <div class="col-lg-4"> <!--linked in profile badge-->
-                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="elizabeth-murice-alexander"><a class="LI-simple-link" href='https://www.linkedin.com/in/elizabeth-murice-alexander?trk=profile-badge'>Elizabeth Murice Alexander</a></div>
+                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="elizabeth-murice-alexander"><a class="LI-simple-link" href='https://www.linkedin.com/in/elizabeth-murice-alexander?trk=profile-badge' target="blank">Elizabeth Murice Alexander</a></div>
             </div>
             <div class="col-lg-4"> <!--twitter profile embed from twitter developer-->
                 <a class="twitter-timeline" href="https://twitter.com/blkvibration?ref_src=twsrc%5Etfw" data-tweet-limit="2">Tweets by blkvibration</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
-            <div class="col-lg-4"> <!--github profile embed code [made with a tool by github user lepture]-->
-                <div class="github-card" data-github="lmalexander" data-width="400" data-height="" data-theme="default"></div>
+            <div class="col-lg-4"> <!--github profile embed-->
+                <div class="card" style="width: 18rem;"> <!--official github brand logos from github.com/logos-->
+                    <img src="assets/images/Octocat.jpg" class="card-img-top" alt="..."> <!--octocat-->
+                    <img src="assets/images/GitHub_Logo.png" class="card-img" alt="..."> <!--github logo-->
+                    <div class="card-body">
+                      <h5 class="card-title">lmalexander</h5>
+                      <a href="https://github.com/lmalexander?tab=repositories" class="btn btn-light" target="blank">View Repos</a>
+                    </div>
+                  </div>
+               
 
             </div>
         </div>
@@ -193,8 +203,6 @@
 
     <footer></footer>
     <!--scripts-->
-    <!--github embed widget.js-->
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
     <!--linked in badge profile.js-->
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <!--jquery-->
