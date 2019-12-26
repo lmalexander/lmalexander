@@ -1,18 +1,32 @@
-#current {
-    background-image: url("../images/black-woman-with-stars-1920x954.jpg");
+#header {}
+
+#background {
+    background-image: url("../images/homepage/base-images/createherstock-christmas168-isha-gaines.jpg");
     background-origin: content-box;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-#inWork {
-    background-image: url("../images/createherstock-2018-CoWorking-1-Neosha-Gardner-14.jpg");
-    background-origin: content-box;
+#projectsLiterature {
+    background-image: url("../images/homepage/base-images/photo-of-woman-writing-on-notebook-3059749.jpg");
 }
 
-#pastWork {
-    background-image: url("../images/createherstock-2018-CoWorking-1-Neosha-Gardner-23.jpg");
-    background-origin: content-box;
+#projectsMedia {
+    background-image: url("../images/homepage/base-images/createherstock-boho-decor-isha-gaines-5.jpg");
+}
+
+#projectsWebDev {
+    background-image: url("../images/homepage/base-images/woman-carpet-surrounded-by-dev-books-1181573.jpg");
 }
 
 #contactMe {
+    background-image: url("../images/homepage/base-images/createherstock-2018-boss-lady-neosha-gardner-5.jpg");
+}
+
+#footer {}
+
+.container {
+    background-color: rgba(250, 250, 250, 0.5)
+  
     
 }
