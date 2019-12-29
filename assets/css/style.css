@@ -1,0 +1,52 @@
+/* divs */
+body {
+    background-color: #171717
+    
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    border-bottom: 5px #05878a;
+}
+
+/* text classes */
+h1 {
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+a {
+    color: #d3105b;
+}
+
+
+
+/* all classes */
+#highlight {
+    color: #724c99;
+}
+
+#highlightLink {
+    color: #05878a;
+}
+
+#humanities {
+    color: #dd9933;
+}
+
+#webDev {
+    color: #05878a;
+}
