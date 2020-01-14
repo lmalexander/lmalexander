@@ -13,13 +13,16 @@ header {
     padding-bottom: 75px;
 }
 
+footer {
+    padding-top: 75px;
+}
 /* text classes */
 h1 {
-    color: #020302;
+    color: #0a8087;
 }
 
 h2 {
-    color: #0a8087;
+    color: #000000;
 }
 
 h3 {
@@ -32,7 +35,7 @@ a {
 
 #bigAsterisk{
     font-size: 200px;
-    color: #7e54a7;
+    color: #0a8087;
 }
 
 
