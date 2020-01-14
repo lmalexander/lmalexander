@@ -1,6 +1,6 @@
 /* divs */
 body {
-    background-color: #171717
+    background-color: #ffffff
     
 }
 
@@ -9,44 +9,30 @@ body {
     text-align: center;
 }
 
-header {
-    border-bottom: 5px #05878a;
+header { 
+    padding-bottom: 75px;
 }
 
 /* text classes */
 h1 {
-    font-size: 2em;
-    color: whitesmoke;
+    color: #020302;
 }
 
 h2 {
-    font-size: 1.5em;
-    color: whitesmoke;
+    color: #0a8087;
 }
 
 h3 {
-    font-size: 1.25em;
+    color: #0d4dad;
 }
 
 a {
-    color: #d3105b;
+    color: #7e54a7;
+}
+
+#bigAsterisk{
+    font-size: 200px;
+    color: #7e54a7;
 }
 
 
-
-/* all classes */
-#highlight {
-    color: #724c99;
-}
-
-#highlightLink {
-    color: #05878a;
-}
-
-#humanities {
-    color: #dd9933;
-}
-
-#webDev {
-    color: #05878a;
-}
